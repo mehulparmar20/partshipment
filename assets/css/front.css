@@ -1,0 +1,54 @@
+span.wphub-status-label-top{
+    display: block;
+    margin: 10px 0;
+}
+span.wphub-status-label{
+    padding: 8px 16px;
+}
+span.wphub-not-shipped{
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+span.wphub-partially-shipped{
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+span.wphub-shipped{
+    color: #270;
+    background-color: #DFF2BF;
+}
+.shipment-section{
+    border: #c3c4c7 solid 1px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.shipment-section > table,
+.shipment-section > table tbody,
+.shipment-section > table th,
+.shipment-section > table tbody td{
+    border:none!important;
+}
+.shipment-head{
+    font-weight: 600;
+    font-size: 26px;
+}
+.shipment-head > span{
+    font-size:16px;
+    font-weight:normal;
+    margin-left:20px;
+}
+table.partial_shipment_details tr td span.item-title{
+    font-weight: bold;
+}
+table.partial_shipment_details tr td ul.wc-item-meta{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+table.partial_shipment_details tr td ul.wc-item-meta li p{
+    display: inline;
+    padding-left: 3px;
+}
+table.wphub-shipment-provider-details tr td{
+    width:50%;
+}

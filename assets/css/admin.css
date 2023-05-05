@@ -1,0 +1,298 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "pf-font";
+    src:url("../fonts/pf-font.eot");
+    src:url("../fonts/pf-font.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/pf-font.woff") format("woff"),
+    url("../fonts/pf-font.ttf") format("truetype"),
+    url("../fonts/pf-font.svg#pf-font") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+table.wp-list-table tr td.wc_actions a.partial-shipment:after{
+    font-family: "pf-font" !important;
+    content: "\62";
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+}
+.wp-core-ui #wpbody-content .pf-notice{
+    padding: 0 1%;
+    margin: 15px 0;
+    max-width: 96%;
+}
+
+.pf-order-info{
+    display: block;
+    width: 98%;
+    background: #ffffff;
+}
+.pf-order-info .pf-order-in{
+    padding: 15px;
+    display: block;
+}
+.pf-order-info h2.page-heading{
+    font-weight:600;
+    font-size:18px;
+    display: inline-block;
+}
+.pf-order-info .pf-status{
+    display: inline-block;
+    background: #f0f0f1;
+    padding: 6px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.pf-col-1{
+    display: block;
+    width: 100%;
+}
+.pf-order-in .pf-order-row .col-1 h4{
+    margin:0;
+    padding: 0 15px;
+}
+.pf-order-in .page-title-action{
+    vertical-align: middle;
+}
+.pf-order-in .pf-order-row .pf-heading-inline{
+    font-size: 23px;
+    font-weight: 400;
+    display: inline-block;
+}
+.pf-order-info .pf-order-row{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+.pf-order-info .pf-order-row .pf-col-1,
+.pf-order-info .pf-order-row .pf-col-2{
+    display: inline-block;
+    width: 46%;
+}
+.pf-order-row .pf-col-1-2{
+    width: 49%;
+    display: inline-block;
+    border: #c3c4c7 solid 1px;
+}
+.pf-col-flex{
+    display:flex!important;
+}
+.pf-col-flex .pf-flex-in{
+    flex:1;
+}
+.pf-col-head{
+    border-bottom: #c3c4c7 solid 1px;
+    background: #f0f0f1;
+    padding: 4px 5px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+.pf-col-txt{
+    padding: 4px 5px;
+}
+.pf-mr-1{
+    margin: 0 1%;
+}
+table.pf-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: #c3c4c7 solid 1px;
+}
+table.pf-table thead th{
+    background: #f0f0f1;
+    padding: 4px 5px;
+}
+table.pf-table thead th,
+table.pf-table tbody td {
+    text-align: left;
+    padding: 4px 5px;
+}
+table.pf-table-items tbody tr.product-row td {
+    border-bottom: #c3c4c7 solid 1px;
+}
+table.pf-table-items tbody tr td span.pro-title {
+    display: block;
+    font-weight: 600;
+    color: #000000;
+}
+table.pf-table-items tbody tr td span.pro-sku {
+    display: block;
+    margin: 0 0 5px 0;
+}
+table.pf-table-items tbody tr td span.pro-im-l,
+table.pf-table-items tbody tr td span.pro-im-r {
+    display: inline-block;
+    width: 50%;
+}
+table.pf-table-items tbody tr td span.pro-img img {
+    max-width: 100px;
+    height: auto;
+}
+table.pf-table-items tbody tr.tab-footr td:not(.f-mid-l) {
+    padding: 0;
+    font-weight: normal;
+    text-align: right;
+}
+table.pf-table-items tbody tr.tab-footr td:not(.f-mid) {
+    padding: 0 15px;
+    width: 136px;
+}
+.shiptable{
+    display: table;
+    width: 100%;
+    border:#c3c4c7 solid 1px;
+    padding: 10px 0;
+}
+.shiptable-items{
+    display: table;
+    width: 100%;
+    border:#c3c4c7 solid 1px;
+}
+.shiptable-body {
+    display: table-row-group;
+}
+.shiptable-row {
+    display: table-row;
+}
+.shiptable-head{
+    display: table-header-group;
+}
+.shiptable-cell{
+    display: table-cell;
+    padding: 3px 10px;
+}
+.shiptable-foot{
+    background-color: #EEE;
+    display: table-footer-group;
+}
+.shiptable-cell label{
+    display:block;
+    padding: 6px 0;
+    font-weight:600;
+}
+.shiptable-cell input[type="text"],
+.shiptable-cell select{
+    width:100%;
+    max-width:100%;
+    border: #CCD4D5FF 1px solid;
+}
+.shiptable-items .shiptable-head .shiptable-cell{
+    background: #f0f0f1;
+    padding: 4px 5px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+.shiptable-items .shiptable-body .shiptable-cell{
+    padding: 8px 5px;
+}
+.shiptable-items .shiptable-foot .shiptable-cell{
+    padding: 14px 10px;
+}
+.shiptable-items .shiptable-body .item-sku{
+    display:block;
+}
+.shiptable-items .shiptable-body .item-sku strong{
+    padding-right: 6px;
+}
+.pf-dispatched-shipment{
+    margin: 14px 0;
+}
+.pf-dispatched-shipment .shiptable{
+    padding:0;
+}
+.edit-shipment-box .shiptable .shiptable-head .shiptable-cell,
+.pf-dispatched-shipment .shiptable .shiptable-head .shiptable-cell{
+    background:#f0f0f1;
+    font-weight:600;
+    font-size:18px;
+    padding: 12px 5px;
+    vertical-align: middle;
+}
+.pf-dispatched-shipment .shiptable label{
+    font-weight:600;
+}
+button.button.add-shipment{
+    margin: 10px 0;
+}
+.shiptable-row .shiptable-cell{
+    width:50%;
+}
+.pf-dispatched-shipment .shiptable .shiptable-body .shiptable-cell label{
+    display: inline-block;
+    vertical-align: baseline;
+}
+.pf-dispatched-shipment .shiptable .shiptable-body .shiptable-cell span{
+    padding: 6px 0 0 6px;
+    display: inline-block;
+}
+.pf-table-items .tab-footr:last-of-type .f-mid,
+.pf-table-items .tab-footr:last-of-type .f-mid-l{
+    font-weight:600;
+}
+.pf-dispatched-shipment .shiptable-items .shiptable-body .shiptable-row:nth-of-type(even) .shiptable-cell,
+.shipment-box .shiptable-items .shiptable-body .shiptable-row:nth-of-type(even) .shiptable-cell{
+    background-color:#f2f2f2;
+}
+.pf-dispatched-shipment .shiptable-head .pf-shipment-action{
+    text-align:right;
+}
+.pf-dispatched-shipment .shiptable-head .pf-shipment-action a{
+    font-size: 12px;
+    padding: 0 8px;
+}
+.pf-dispatched-shipment .shiptable-head .pf-shipment-action a:last-of-type{
+    margin-left: 6px;
+}
+.pf-bill-line strong{
+    padding-right:6px;
+}
+.edit-shipment-box .shiptable-items .shiptable-foot .shiptable-cell{
+    margin-top:15px;
+}
+.edit-shipment-box .shiptable,
+.pf-dispatched-shipment .shiptable{
+    padding: 0 0 10px 0;
+}
+span.wphub-status-label{
+    padding: 8px 16px;
+}
+span.wphub-not-shipped{
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+span.wphub-partially-shipped{
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+span.wphub-shipped{
+    color: #270;
+    background-color: #DFF2BF;
+}
+
+.pf-order-row table tr td.pro-img ul,
+.pf-dispatched-shipment .shiptable-cell ul.wc-item-meta,
+.shipment-box .shiptable-cell ul.wc-item-meta{
+    margin: 3px 0;
+}
+
+.pf-order-row table tr td.pro-img ul li,
+.pf-dispatched-shipment .shiptable-cell ul.wc-item-meta li,
+.shipment-box .shiptable-cell ul.wc-item-meta li{
+    margin-bottom:3px;
+}
+.pf-order-row table tr td.pro-img ul li p,
+.pf-dispatched-shipment .shiptable-cell ul.wc-item-meta li p,
+.shipment-box .shiptable-cell ul.wc-item-meta li p{
+    display: inline;
+    padding-left: 2px;
+}
